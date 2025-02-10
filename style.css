@@ -1,0 +1,135 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    background-color: black;
+}
+.sec1{
+    display: flex;
+    flex-direction: column;
+    color: #f2f8f7;
+    background-color: #163853;
+    padding:14px 0px;
+}
+.con a{
+    text-decoration: none;
+    color:#f2f8f7;
+    line-height: 28px;
+}
+.logo{
+    text-align: center;
+}
+.logo img{
+    width:34%;
+    border-radius: 50%;
+    border: 4px solid #eff3f4;
+}
+.mainallsection{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 50px 0px;
+}
+.con{
+    display: flex;
+    flex-direction: column;
+}
+.contact,.education,.listEdu,.skill{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact{
+padding-top: 25px;
+padding-bottom: 10px;
+}
+.listEdu{
+padding-top: 15px;
+}
+.contact LI,#h4 li ,.skill li{
+ border-bottom: 2px solid #f2f8f7;
+ padding-bottom: 6px;
+ font-size:1.2rem;
+}
+.listEdu ul{
+    list-style-type:square;
+}
+.detail ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.summary h3 ,.workexperience h3 ,.detail h3 ,.fot strong{
+    border-bottom: 2px solid black;
+}
+.summary p ,.workexperience .para1 ,.detail ul ,.fot p ,.contact h4 ,.education , .skill h4{
+    padding: 14px 0px;
+    line-height: 22px;
+}
+.summary{
+    padding-top:30px;
+}
+#h4{
+    padding: 0px;
+}
+.education h4{
+    padding: 10px 0px;
+}
+.skill h5{
+    padding: 5px 0px;
+}
+.detail ul li{
+    padding: 6px 0px;
+}
+.sec2{
+    padding: 33px;
+    background-color: #ffffff;
+}
+span{
+    font-weight: bold;
+    color:orangered;
+}
+@media (max-width:770px) {
+    .logo img{
+        width:48%;
+    }
+    .sec1{
+        padding: 70px 0px;
+    }
+    #breaknone{
+        display:none;
+    }
+
+}
+@media (min-width:581px) {
+#none581{
+    display: none;
+}
+}
+@media (max-width:580px) {
+    .mainallsection{
+    flex-direction: column;
+    }
+    .sec1{
+        padding:50px 0px;
+    }
+    #none581{
+        text-align: center;
+        padding-top: 30px;
+    }
+    #none580{
+        display: none;
+    }
+    .mainallsection {
+    padding: 0px; 
+    }
+    }
+@media (max-width:380px) {
+    .summary p, .workexperience .para1, .detail ul, .fot p, .contact h4, .education, .skill h4 {
+        line-height: 28px;
+    }
+    }
+
