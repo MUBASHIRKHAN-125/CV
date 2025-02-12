@@ -119,6 +119,7 @@ span{
     #none581{
         text-align: center;
         padding-top: 30px;
+        font-size: 1.092rem;
     }
     #none580{
         display: none;
@@ -130,6 +131,15 @@ span{
 @media (max-width:380px) {
     .summary p, .workexperience .para1, .detail ul, .fot p, .contact h4, .education, .skill h4 {
         line-height: 28px;
+    }
+    .contact LI, #h4 li, .skill li {
+        font-size: 1.4rem;
+    }
+.workexperience h3{
+    font-size: 1.03rem;
+    }
+    .con a {
+        font-size: 1.093rem;
     }
     }
 
