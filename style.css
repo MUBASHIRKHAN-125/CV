@@ -85,24 +85,31 @@ padding-top: 15px;
     padding: 6px 0px;
 }
 .sec2{
-    padding: 33px;
+    padding: 76px 35px;
     background-color: #ffffff;
 }
 span{
     font-weight: bold;
     color:orangered;
 }
-@media (max-width:770px) {
+@media (max-width:1024px){
+    .sec2{
+        padding: 66px 35px;
+    }
+}
+@media (max-width:768px) {
     .logo img{
         width:48%;
     }
     .sec1{
-        padding: 70px 0px;
+        padding: 10px 0px;
+    }
+    .sec2{
+        padding: 42px 10px;
     }
     #breaknone{
-        display:none;
+        display: none;
     }
-
 }
 @media (min-width:581px) {
 #none581{
@@ -112,9 +119,6 @@ span{
 @media (max-width:580px) {
     .mainallsection{
     flex-direction: column;
-    }
-    .sec1{
-        padding:50px 0px;
     }
     #none581{
         text-align: center;
@@ -126,6 +130,9 @@ span{
     }
     .mainallsection {
     padding: 0px; 
+    }
+    #hide{
+       display: none; 
     }
     }
 @media (max-width:380px) {
