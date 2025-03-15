@@ -107,6 +107,9 @@ span{
     .sec2{
         padding: 42px 10px;
     }
+    ul{
+        list-style: none;
+    }
     #breaknone{
         display: none;
     }
